@@ -1,23 +1,40 @@
-    <html>
-
-        <head> 
-            <title>
-                SpinForEats - Home
-            </title>
-            
+<html lang="fr">
+    <head> 
+        <title>
+            SpinForEats - Home
+        </title>           
             <meta charset="utf-8" />
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             <link rel="stylesheet" type="text/css" href="css/Style.css">
-
+            <link rel="stylesheet" type="text/css" href="css/animation.css">
         <head>
 
-            <body>
+        <header>
+            <div class="w3-bar head font-head" style="width: 100%">
+            <button class="w3-bar-item w3-button">SpinForEat<img src="img/home.png" style="width: 15px;margin-top: -20%; margin-right: 0px;"/></button>
+        </div>
+    </header>
 
-                <div class="w3-bar head" style="width: 100%">
-                    <button class="w3-bar-item w3-button">SpinForEat<img src="img/home.png" style="width: 15px;margin-top: -20%; margin-right: 0px;"/></button>
-                </div>
+    <body>
+        <div class="spin"></div>
 
-                <div class="spin" style="align-items: center; margin-left: 25%;"></div>
+        <div id="workarea">
+            <div class="position">
+          
+              <!--start button, nothing above this is necessary -->
+              <div class="svg-wrapper">
+                <svg height="40" width="150" >
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href=""><span class="spot"></span>Spin</a>
+                  </div>
+                </svg>
+              </div>
+              
+              <!--End button -->
+          
+            </div>
+          </div>
+    </body>
 
-            </body>
-    </html>
+</html>

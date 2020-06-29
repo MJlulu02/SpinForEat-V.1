@@ -16,25 +16,28 @@
     }
 
     .right{
-        margin-right: 1px;
+        float: right;
     }
 
-    *{
+    .font-head{
         margin: 0px;
 	    padding: 0px;
-        font-family: cursive;
+        font-family: Chalkduster, fantasy;
         outline: none;
     }
 
     .spin {
         height: 500px;
         width: 500px;
+        align-items: center;
+        margin-left: center;
         border-radius: 350px;
-        margin-top: 20%;
+        border-color: white;
+        margin-top: center;
         background-color: #0CB1C4;
         animation-name: spin;
-        animation-duration: 5000ms;
-        animation-iteration-count: 10s;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
         animation-timing-function: linear;
       }
       
