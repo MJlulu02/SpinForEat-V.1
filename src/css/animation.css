@@ -6,7 +6,7 @@
   }
   
   #workarea {
-    font-family: Raleway;
+    font-family: monospace;
   }
   
   #personal {
@@ -28,7 +28,6 @@
     position: relative;
     width: 150px;
     height: 40px;
-    display: inline-block;
     border-radius: 3px;
     margin-left: 5px;
     margin-right: 5px
@@ -37,6 +36,7 @@
   #shape {
     stroke-width: 6px;
     fill: transparent;
+    text-align: center;
     stroke: #009FFD;
     stroke-dasharray: 85 400;
     stroke-dashoffset: -220;
@@ -62,6 +62,6 @@
     stroke: #06D6A0;
   }
 
-  #text:hover a{
+  .svg-wrapper:hover #text a{
     color: #06D6A0;
   }
