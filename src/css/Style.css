@@ -27,14 +27,7 @@
     }
 
     .spin {
-        height: 500px;
-        width: 500px;
-        align-items: center;
-        margin-left: center;
-        border-radius: 350px;
-        border-color: white;
         margin-top: center;
-        background-color: #0CB1C4;
         animation-name: spin;
         animation-duration: 1000ms;
         animation-iteration-count: infinite;
